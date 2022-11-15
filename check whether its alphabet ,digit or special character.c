@@ -8,7 +8,7 @@ int main()
       printf(" alphabet upper case");
       else if (ch>'a'&&ch<'z')
       printf("alphabet lower case");
-      else if(ch>'0'&&ch<'9')
+      else if(ch>='0'&&ch<='9')
       printf("digit");
       else
       printf("special character");
